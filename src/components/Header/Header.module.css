@@ -1,0 +1,33 @@
+.Header {
+    position: fixed;;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--black);
+}
+
+nav {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    padding: 10px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.logo {
+    width: 90px;
+    filter: invert(1);
+}
