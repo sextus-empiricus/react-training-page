@@ -1,0 +1,27 @@
+.VideoHero {
+    margin-top: 1px;
+    overflow-x: hidden;
+}
+
+video {
+    margin-top: -200px; /*To suggest scrolling.*/
+    width: 100vw;
+    position: relative;
+}
+
+@media (max-width: 1000px) {
+    .VideoHero {
+        margin-top: calc(0px - var(--header-height));
+    }
+    video {
+        margin: 0;
+        height: 80vh;
+        width: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .VideoHero {
+        margin-left: -200px;
+    }
+}

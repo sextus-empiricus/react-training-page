@@ -2,8 +2,13 @@
 
 
 :root {
-    --white: white;
-    --black: black;
+    /*colors*/
+    --white: #dedede;
+    --black: #151515;
+
+    /*sizes*/
+    --header-height: 90px;
+    --header-height__mobile: 50px;
 }
 
 * {
@@ -16,4 +21,8 @@ html {
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
     color: var(--white);
+}
+
+body {
+    overflow-x: hidden;
 }
