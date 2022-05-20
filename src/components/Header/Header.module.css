@@ -25,15 +25,10 @@
     backdrop-filter: blur(10px);
 }
 
-/*.bar-mobile img {*/
-/*    height: 42px;*/
-/*}*/
-
 nav {
     font-size: 1.6rem;
     color: var(--white);
     text-transform: uppercase;
-    /*min-height: var(--header-height__mobile);*/
 }
 
 nav::before {
@@ -53,7 +48,6 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background-color: var(--black);*/
 }
 
 li {
@@ -66,6 +60,11 @@ a {
     padding: 10px;
     color: inherit;
     text-decoration: none;
+}
+
+.a_desktop:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+    cursor: pointer;
 }
 
 .ul-center {
@@ -126,7 +125,6 @@ a {
 
 @media (max-width: 576px) {
     .logo-mobile_wrapper {
-        /*display: none;*/
     }
 
     .logo-mobile_wrapper img {
