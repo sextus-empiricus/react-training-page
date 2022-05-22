@@ -3,6 +3,7 @@ import './App.css';
 import {Header} from './components/Header/Header';
 import {VideoHero} from './components/VideoHero/VideoHero';
 import {AlbumPresentation} from './components/AlbumPresentation/AlbumPresentation';
+import {Footer} from './components/Footer/Footer';
 
 
 const App = () => (
@@ -15,7 +16,10 @@ const App = () => (
         <main>
             <AlbumPresentation/>
         </main>
-        <footer></footer>
+
+        <footer>
+            <Footer/>
+        </footer>
     </div>
 );
 

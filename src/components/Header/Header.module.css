@@ -84,7 +84,7 @@ a {
 
 .logo-img {
     height: 50px;
-    filter: invert(.95);
+    filter: invert(.5);
 }
 
 .logo-mobile_wrapper {
