@@ -71,7 +71,28 @@
 .button-get-album {
     margin-top: 30px;
     padding: 10px;
+    text-align: center;
     font-size: 1.3rem;
     font-weight: 300;
     border: 1px solid var(--white);
+}
+
+@media (max-width: 800px) {
+    .content {
+        display: block;
+    }
+
+    .album-image_wrapper {
+        display: block;
+        padding: 0;
+        width: 100%;
+    }
+
+    .album-image_wrapper img {
+      width: 100%;
+    }
+
+    .track-list_wrapper {
+        display: block;
+    }
 }

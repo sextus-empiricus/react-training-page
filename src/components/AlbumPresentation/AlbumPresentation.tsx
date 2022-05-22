@@ -46,7 +46,7 @@ const AlbumPresentation = (props: Props) => {
                     <div className={classes['get-album_wrapper']}>
                         <p>Get the album here:</p>
                         <div className={classes['button-get-album']}>
-                            <a href="http://">GET THE ALBUM HERE</a>
+                            <a href="#">GET THE ALBUM HERE</a>
                         </div>
                     </div>
                 </div>
