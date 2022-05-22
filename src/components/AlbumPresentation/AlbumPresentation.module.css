@@ -1,0 +1,77 @@
+.AlbumPresentation {
+    position: relative;
+    margin: 30px 0;
+    padding: 30px;
+    color: var(--yellow);
+    background: radial-gradient(circle, transparent -50%, black 100%);
+}
+
+.AlbumPresentation span {
+    color: var(--white);
+}
+
+.AlbumPresentation h2 {
+    margin-top: 10px;
+    letter-spacing: 3px;
+    font-weight: 200;
+    color: var(--white);
+}
+
+.texture {
+    background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    z-index: -1;
+}
+
+
+.title-wrapper {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 1200px;
+    display: flex;
+}
+
+.album-image_wrapper {
+    padding-right: 15px;
+    display: inline-block;
+    width: 50%;
+}
+
+.album-image_wrapper img {
+    width: 100%;
+}
+
+.track-list_wrapper {
+    display: inline-block;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.track-list_wrapper p {
+    margin-top: 10px;
+}
+
+.get-album_wrapper {
+    margin-top: 30px;
+    color: var(--white);
+}
+
+.button-get-album {
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 1.3rem;
+    font-weight: 300;
+    border: 1px solid var(--white);
+}

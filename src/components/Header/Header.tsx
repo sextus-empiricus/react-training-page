@@ -6,8 +6,7 @@ import {Hamburger} from './Hamburger/Hamburger';
 
 const Header = () => {
     return (
-        <header className={classes.Header}>
-
+        <div className={classes.Header}>
             <nav>
                 <ul className={classes['ul-center']}>
                     <li><a className={classes['a_desktop']} href="/">home</a></li>
@@ -38,7 +37,7 @@ const Header = () => {
 
             </nav>
             <Hamburger/>
-        </header>
+        </div>
     );
 }
 

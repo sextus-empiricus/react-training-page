@@ -5,6 +5,7 @@
     /*colors*/
     --white: #dedede;
     --black: #151515;
+    --yellow: #b79f84;
 
     /*sizes*/
     --header-height: 90px;
@@ -25,4 +26,5 @@ html {
 
 body {
     overflow-x: hidden;
+    background-color: var(--black)
 }
