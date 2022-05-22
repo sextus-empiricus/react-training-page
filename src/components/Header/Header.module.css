@@ -108,7 +108,7 @@ a {
         height: var(--header-height__mobile);
     }
 
-    ul {
+    .Header ul {
         display: none;
     }
 

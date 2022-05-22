@@ -1,0 +1,72 @@
+.Footer {
+}
+
+.Footer p {
+    color: #989898;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.wrapper {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-1, .section-2, .section-3, .section-4 {
+    line-height: 2rem;
+    padding: 5px;
+    width: 25%;
+}
+
+.section-1 > ul {
+    font-size: 2rem;
+    flex-wrap: wrap;
+}
+
+.section-1 li {
+    height: auto;
+    margin: 12px 5px;
+    line-height: normal;
+}
+
+.section-1 a {
+    background-color: #202020;
+    border-radius: 3px;
+}
+
+.section-1 a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.section-2, .section-4 {
+    padding: 5px;
+    width: 25%;
+}
+
+.section-2 h3, .section-4 h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.section-2 a, .section-4 a {
+    font-size: 1.2rem;
+    margin-right: 5px;
+    padding: 0;
+}
+
+.section-2 a:hover, .section-4 a:hover {
+    color: var(--yellow);
+}
+
+@media (max-width: 800px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .section-1, .section-2, .section-3, .section-4 {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+}
