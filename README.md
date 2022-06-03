@@ -2,11 +2,11 @@
 
 ### react-training-page
 
-Website project for skills training.
+React website project for practice.
+original website: https://danheimmusic.com/
 
 ### 🧿Purposes:
-    -nice design
-    -responsiveness
+1. ...
 
 ### 🤷‍♀questions:
 1. ...
@@ -17,4 +17,5 @@ Website project for skills training.
 ### 💡for future projects:
 1. ...
 
-DEMO: 
+DEMO:
+https://react-training-page.herokuapp.com/ 
