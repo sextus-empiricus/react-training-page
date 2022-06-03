@@ -20,7 +20,7 @@ const Footer = (props: Props) => {
                 <div className={classes['section-1']}>
                     <ul>
                         <li>
-                            <a href="#"> <FontAwesomeIcon icon={faFacebookF}/> </a>
+                            <a href="#"> <FontAwesomeIcon icon={faFacebookF}/></a>
                         </li>
 
                         <li>
@@ -43,22 +43,22 @@ const Footer = (props: Props) => {
 
                 <div className={classes['section-2']}>
                     <h3>extra links</h3>
-                    <a href="#">Old Norse dictionary</a><span> | </span>
-                    <a href="#">Watch on Odysee</a><span> | </span>
-                    <a href="#">Watch on LBRY</a><span> | </span>
+                    <a href="#">Some another things</a><span> | </span>
+                    <a href="#">Watch on FE</a><span> | </span>
+                    <a href="#">Watch on BE</a><span> | </span>
                 </div>
 
                 <div className={classes['section-3']}></div>
 
                 <div className={classes['section-4']}>
-                    <h3>FIMBUL RADIO LINKS</h3>
-                    <a href="#">Fimbul Radio (Song Request)</a><span> | </span>
-                    <a href="#">Ranking & Leaderboards</a><span> | </span>
-                    <a href="#">Fimbul Radio (YouTube)</a><span> | </span>
+                    <h3>ISTANBUL RADIO LINKS</h3>
+                    <a href="#">Istanbul Radio (Song Request)</a><span> | </span>
+                    <a href="#">Ranking & Something</a><span> | </span>
+                    <a href="#">Matbuha Radio (YouTube)</a><span> | </span>
                 </div>
             </div>
 
-            <p>© 2021 Danheim - ALL MATERIAL COPYRIGHTED. WORLDWIDE COPYRIGHT SECURE</p>
+            <p>© 2021 Sahalan - ALL MATERIAL COPYRIGHTED. WORLDWIDE COPYRIGHT SECURE</p>
         </div>
 
     );

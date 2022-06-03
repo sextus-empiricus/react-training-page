@@ -86,6 +86,9 @@
 }
 
 @media (max-width: 1000px) {
+    li {
+        height: 80px;
+    }
     .Hamburger {
         display: inline-block;
     }
